@@ -1,6 +1,6 @@
 public class Task {
-    private String title;
-    private String description;
+    private final String title;
+    private final String description;
     private boolean completed;
 
     public Task(String title, String description) {
